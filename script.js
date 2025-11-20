@@ -5,53 +5,111 @@ document.addEventListener('DOMContentLoaded', () => {
     // To add a new studio, just copy an object and fill in the details.
     const studioData = [
         {
-            name: "Capital Tattoo",
-            image: "https://images.unsplash.com/photo-1598971914047-4517e1c0f979?q=80&w=1974&auto=format&fit=crop",
+            name: "Ōtautahi Tattoo",
+            image: "https://images.unsplash.com/photo-1598971914047-https://otautahitattoo.com/christchurch/wp-content/uploads/sites/3/2021/10/IMG_1171.jpg?q=80&w=1974&auto=format&fit=crop",
             styles: ["Traditional", "Japanese", "Illustrative"],
-            location: "City Centre",
+            location: "98 Oxford Terrace, CBD",
             priceRange: "$$$",
-            website: "#"
+            website: "https://otautahitattoo.com/christchurch/"
         },
         {
-            name: "Ink Theory",
-            image: "https://images.unsplash.com/photo-1619895862022-09a14b5e3b79?q=80&w=1964&auto=format&fit=crop",
+            name: "Haven Tattoo",
+            image: "https://images.https://static.wixstatic.com/media/69865c_cd9aee359a244208876f76e2aee843ef~mv2.jpg/v1/fill/w_960,h_699,al_b,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/69865c_cd9aee359a244208876f76e2aee843ef~mv2.jpg.com/photo-1619895862022-09a14b5e3b79?q=80&w=1964&auto=format&fit=crop",
             styles: ["Fine Line", "Minimalist", "Script"],
-            location: "Addington",
+            location: "A32/34 New Regent Street, CBD",
             priceRange: "$$",
-            website: "#"
+            website: "https://www.haventattoo.co.nz/"
         },
         {
-            name: "The Holy Grail",
-            image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop",
-            styles: ["Realism", "Portraits", "Black & Grey"],
-            location: "Riccarton",
-            priceRange: "$$$",
-            website: "#"
-        },
-        {
-            name: "Sinner & Saint",
-            image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1974&auto=format&fit=crop",
-            styles: ["American Traditional", "Blackwork"],
-            location: "Sydenham",
+            name: "B.LIST Tattoo Studio",
+            image: "https://www.b-list.co.nz/wp-content/uploads/2025/05/B.List-Tattoo-42-2048x1365.jpg",
+            styles: ["Realism", "Portraits", "Black & Grey", "Lettering", "Anime/Pop", "Ornamental", "Feline", "Neo-Traditional"],
+            location: "255 Lincoln Road, Addington",
             priceRange: "$$",
-            website: "#"
+            website: "https://www.b-list.co.nz/contact/"
         },
         {
-            name: "Modern Classic Tattoo",
-            image: "https://images.unsplash.com/photo-1622634213744-19a698e88b40?q=80&w=1974&auto=format&fit=crop",
-            styles: ["Geometric", "Dotwork", "Mandala"],
-            location: "City Centre",
-            priceRange: "$$$",
-            website: "#"
-        },
-        {
-            name: "Artful Ink",
-            image: "https://images.unsplash.com/photo-1616457877495-d8b0204315d1?q=80&w=1974&auto=format&fit=crop",
-            styles: ["Watercolor", "New School", "Illustrative"],
-            location: "Papanui",
+            name: "The Jolly Octopus Tattoos & Piercings",
+            image: "https://images.squarespace-cdn.com/content/v1/59c6484864b05f184cb20ed7/da170b08-ba5e-4f7a-8bfa-e641491c3e20/IMG_0122+2.JPG?format=500w",
+            styles: ["Old School", "Neo-Traditional", "Cover Ups", "Japanese"],
+            location: "129A Farrington Ave, Bishopdale",
             priceRange: "$$",
-            website: "#"
+            website: "https://jollyoctopustattoo.com/"
+        },
+        {
+            name: "3 Keys Tattoos",
+            image: "https://images.squarespace-cdn.com/content/v1/6046943cbf827710b73478ab/1615239252760-DCTOIKU765M1RU2LPH16/20200708_092633.jpg?format=1500w",
+            styles: ["Feline"],
+            location: "193 Montreal Street, CBD",
+            priceRange: "$$",
+            website: "https://3keys.tattoo/"
+        },
+        {
+            name: "Dell Tattoo",
+            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
+            styles: ["Large Scale", "New School", "Illustrative"],
+            location: "1063 Ferry Road, Christchurch",
+            priceRange: "$$",
+            website: "https://www.delltattoo.com/"
         }
+         {
+            name: "Lucky Cat Tattoo Studio",
+            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "24 McGregors Road, Christchurch",
+            priceRange: "$$",
+            website: "https://www.facebook.com/luckycattattoostudionz/"
+        } 
+         {
+            name: "Lincoln Ink Tattoo Studio",
+            image: "https://scontent.fakl4-2.fna.fbcdn.net/v/t39.30808-6/472812532_1154406616050799_7513313292005385138_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DjsqbSpA_RgQ7kNvwEkW1FS&_nc_oc=AdkoG8JVjNIlzU_H5y31h9uEIVK6thpR_-j_cRxhd_H5bB81Gmw_4RNmEuigScPb2PI&_nc_zt=23&_nc_ht=scontent.fakl4-2.fna&_nc_gid=BCPbWsuIaS5918qTR0aIgQ&oh=00_Afjy-wC2QwnoGlff_s3zIyFZkyY0FOpfoBGKYMWKm1IHVg&oe=69255F66",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "265 Lincoln Road, Christchurch",
+            priceRange: "$$",
+            website: "https://www.facebook.com/Lincolninktattoo/"
+        }
+        {
+            name: "Brother Tip Tattoo & Art Studio",
+            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "705 Gloucester Street, Christchurc",
+            priceRange: "$$",
+            website: "https://www.brothertip.co.nz/"
+        }
+        {
+            name: "Astoria Ink Tattoo Studio",
+            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "270 St Asaph Street, Christchurch",
+            priceRange: "$$",
+            website: "https://www.astoriaink.co.nz/"
+        }
+           {
+            name: "Impala Tattoo",
+            image: "https://scontent.fakl4-2.fna.fbcdn.net/v/t39.30808-1/292148391_467686992023517_8103294416768309066_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=VW-OUMLpJ60Q7kNvwGBzDPw&_nc_oc=AdkPrOi3UVgCEiSEgpnAinlWuig89-79WH-D6jVUekeh-U73hOu2IMeeYGp_NQCvGDs&_nc_zt=24&_nc_ht=scontent.fakl4-2.fna&_nc_gid=uHKIneE8pdJ1LJj-MVBv5Q&oh=00_AfgBMrUM3c7BH2wkr_7EeF3sDSplfn8ESsHr8duWCeNNgw&oe=69256FE0",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "491 Papanui Road, Christchurch",
+            priceRange: "$$",
+            website: "https://www.facebook.com/impalatattoonz/"
+        } 
+           
+        {
+            name: "The Doom Room Tattoos",
+            image: "https://instagram.fakl4-1.fna.fbcdn.net/v/t51.2885-19/414488352_687026709934431_7693848768912964352_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fakl4-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QHH9kquxr9GUE4zHjOBDhdBn8sC0HR_7JRVYYsQtPyrJ7M7cmh6h7xinsUVSzMPTx0&_nc_ohc=FAvHagWlNigQ7kNvwGW4zLU&_nc_gid=DpoVD_fCQRf4g_2DhBbwLw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfjT3tBBr6hnRb35nnHeqCas2flqmRYcvsQxQItVzbRB2Q&oe=692565C3&_nc_sid=22de04",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "401A Ilam Road, Bryndwr, Christchurch, New Zealand 8053",
+            priceRange: "$$",
+            website: "https://www.instagram.com/thedoomroom_tattoos/"
+        } 
+
+           {
+            name: "Orange Street",
+            image: "https://instagram.fakl4-1.fna.fbcdn.net/v/t51.2885-19/414488352_687026709934431_7693848768912964352_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fakl4-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QHH9kquxr9GUE4zHjOBDhdBn8sC0HR_7JRVYYsQtPyrJ7M7cmh6h7xinsUVSzMPTx0&_nc_ohc=FAvHagWlNigQ7kNvwGW4zLU&_nc_gid=DpoVD_fCQRf4g_2DhBbwLw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfjT3tBBr6hnRb35nnHeqCas2flqmRYcvsQxQItVzbRB2Q&oe=692565C3&_nc_sid=22de04",
+            styles: ["Watercolor", "New School", "Illustrative"],
+            location: "694 Ferry Road",
+            priceRange: "$$",
+            website: "https://www.instagram.com/orangestreet_collective/"
+        } 
     ];
 
     const blogData = [
