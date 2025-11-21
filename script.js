@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Lucky Cat Tattoo Studio",
-            image: "./images/LuckyCat.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/LuckyCat.jpg",
             styles: ["New School", "Illustrative"],
             location: "24 McGregors Road, Christchurch",
             priceRange: "$$",
