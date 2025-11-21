@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Haven Tattoo",
-            image: "./images/Haven.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/Haven.jpg",
             styles: ["Fine Line", "Minimalist", "Script"],
             location: "A32/34 New Regent Street, CBD",
             priceRange: "$$",
