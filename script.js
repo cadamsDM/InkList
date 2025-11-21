@@ -63,14 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
          {
             name: "Lincoln Ink Tattoo Studio",
             image: "https://scontent.fakl4-2.fna.fbcdn.net/v/t39.30808-6/472812532_1154406616050799_7513313292005385138_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DjsqbSpA_RgQ7kNvwEkW1FS&_nc_oc=AdkoG8JVjNIlzU_H5y31h9uEIVK6thpR_-j_cRxhd_H5bB81Gmw_4RNmEuigScPb2PI&_nc_zt=23&_nc_ht=scontent.fakl4-2.fna&_nc_gid=BCPbWsuIaS5918qTR0aIgQ&oh=00_Afjy-wC2QwnoGlff_s3zIyFZkyY0FOpfoBGKYMWKm1IHVg&oe=69255F66",
-            styles: ["New School", "Illustrative"],
+            styles: ["Ornamental", "Fineline"],
             location: "265 Lincoln Road, Christchurch",
             priceRange: "$$",
             website: "https://www.facebook.com/Lincolninktattoo/"
         },
         {
             name: "Brother Tip Tattoo & Art Studio",
-            image: "./images/HighArts.png",
+            image: "./images/HighArts.png", 
             styles: ["New School", "Illustrative"],
             location: "705 Gloucester Street, Christchurch",
             priceRange: "$$",
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const blogData = [
         {
             title: "A Guide to Aftercare: Keeping Your Ink Vibrant",
-            date: "October 26, 2023",
+            date: "October 26, 2024",
             image: "https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=2070&auto=format&fit=crop",
             excerpt: "Essential tips and tricks to ensure your new tattoo heals perfectly and stays bright for years to come."
         },
@@ -124,8 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
             excerpt: "We dive into the history and key design elements that separate these two iconic tattoo styles."
         },
         {
-            title: "Meet the Artist: An Interview with Jane Doe",
-            date: "September 30, 2023",
+            title: "Meet the Artist: An Interview with with a Tattoo Apprentice",
+            date: "November 21, 2025",
             image: "https://images.unsplash.com/photo-1619895862022-09a14b5e3b79?q=80&w=1964&auto=format&fit=crop",
             excerpt: "A conversation with one of Christchurch's most sought-after fine line artists about her journey and inspiration."
         }
