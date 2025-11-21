@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const studioData = [
         {
             name: "Ōtautahi Tattoo",
-            image: "./images/Otautahi Tattoo.png",
+            image: "./images/OtautahiTattoo.png",
             styles: ["Traditional", "Japanese", "Illustrative"],
             location: "98 Oxford Terrace, CBD",
             priceRange: "$$$",
