@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Astoria Ink Tattoo Studio",
-            image: "./images/Astoria.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/Astoria.jpg",
             styles: ["New School", "Illustrative"],
             location: "270 St Asaph Street, Christchurch",
             priceRange: "$$",
