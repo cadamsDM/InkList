@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Brother Tip Tattoo & Art Studio",
-            image: "./images/HighArts.png", 
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/HighArts.png", 
             styles: ["New School", "Illustrative"],
             location: "705 Gloucester Street, Christchurch",
             priceRange: "$$",
