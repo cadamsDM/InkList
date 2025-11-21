@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Impala Tattoo",
-            image: "./images/Impala.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/Impala.jpg",
             styles: ["New School", "Illustrative"],
             location: "491 Papanui Road, Christchurch",
             priceRange: "$$",
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },  
         {
             name: "The Doom Room Tattoos",
-            image: "./images/DoomRoom.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/DoomRoom.jpg",
             styles: ["New School", "Illustrative"],
             location: "401A Ilam Road, Bryndwr",
             priceRange: "$$",
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Orange Street",
-            image: "./images/Orange.jpg",
+            image: "https://raw.githubusercontent.com/cadamsDM/InkList/main/Images/Orange.jpg",
             styles: ["Fineline", "Illustrative"],
             location: "694 Ferry Road, Woolston",
             priceRange: "$$",
