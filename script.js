@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const studioData = [
         {
             name: "Ōtautahi Tattoo",
-            image: "https://scontent.fakl4-1.fna.fbcdn.net/v/t39.30808-1/309267602_5856077454403405_4638141451328231753_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=zh4Ngc-pAggQ7kNvwFP0uTJ&_nc_oc=AdmrUiAfAvM9Jq9za3itMyYqurmvRYYHW0KsaaJDpE63nJEsxlGXsJhw-73iv8TKD1Y&_nc_zt=24&_nc_ht=scontent.fakl4-1.fna&_nc_gid=G07SL2MJorwcqPM5scgR9A&oh=00_AfhbiSBh3B2-QmM4ilre4WBE-yll2pi_RAt6UVKBOqa6Ig&oe=6925782F",
+            image: "./images/Otautahi Tattoo.png",
             styles: ["Traditional", "Japanese", "Illustrative"],
             location: "98 Oxford Terrace, CBD",
             priceRange: "$$$",
@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Lucky Cat Tattoo Studio",
-            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
-            styles: ["Watercolor", "New School", "Illustrative"],
+            image: "./images/LuckyCat.jpg",
+            styles: ["New School", "Illustrative"],
             location: "24 McGregors Road, Christchurch",
             priceRange: "$$",
             website: "https://www.facebook.com/luckycattattoostudionz/"
@@ -63,48 +63,48 @@ document.addEventListener('DOMContentLoaded', () => {
          {
             name: "Lincoln Ink Tattoo Studio",
             image: "https://scontent.fakl4-2.fna.fbcdn.net/v/t39.30808-6/472812532_1154406616050799_7513313292005385138_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DjsqbSpA_RgQ7kNvwEkW1FS&_nc_oc=AdkoG8JVjNIlzU_H5y31h9uEIVK6thpR_-j_cRxhd_H5bB81Gmw_4RNmEuigScPb2PI&_nc_zt=23&_nc_ht=scontent.fakl4-2.fna&_nc_gid=BCPbWsuIaS5918qTR0aIgQ&oh=00_Afjy-wC2QwnoGlff_s3zIyFZkyY0FOpfoBGKYMWKm1IHVg&oe=69255F66",
-            styles: ["Watercolor", "New School", "Illustrative"],
+            styles: ["New School", "Illustrative"],
             location: "265 Lincoln Road, Christchurch",
             priceRange: "$$",
             website: "https://www.facebook.com/Lincolninktattoo/"
         },
         {
             name: "Brother Tip Tattoo & Art Studio",
-            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
-            styles: ["Watercolor", "New School", "Illustrative"],
-            location: "705 Gloucester Street, Christchurc",
+            image: "./images/HighArts.png",
+            styles: ["New School", "Illustrative"],
+            location: "705 Gloucester Street, Christchurch",
             priceRange: "$$",
             website: "https://www.brothertip.co.nz/"
         },
         {
             name: "Astoria Ink Tattoo Studio",
-            image: "https://images.squarespace-cdn.com/content/v1/685919ff6dd64201c27451ff/9f716166-370e-4d16-9b18-70a265e50e51/AR503108-Enhanced-NR-Edit.jpg",
-            styles: ["Watercolor", "New School", "Illustrative"],
+            image: "./images/Astoria.jpg",
+            styles: ["New School", "Illustrative"],
             location: "270 St Asaph Street, Christchurch",
             priceRange: "$$",
             website: "https://www.astoriaink.co.nz/"
         },
         {
             name: "Impala Tattoo",
-            image: "https://scontent.fakl4-2.fna.fbcdn.net/v/t39.30808-1/292148391_467686992023517_8103294416768309066_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=VW-OUMLpJ60Q7kNvwGBzDPw&_nc_oc=AdkPrOi3UVgCEiSEgpnAinlWuig89-79WH-D6jVUekeh-U73hOu2IMeeYGp_NQCvGDs&_nc_zt=24&_nc_ht=scontent.fakl4-2.fna&_nc_gid=uHKIneE8pdJ1LJj-MVBv5Q&oh=00_AfgBMrUM3c7BH2wkr_7EeF3sDSplfn8ESsHr8duWCeNNgw&oe=69256FE0",
-            styles: ["Watercolor", "New School", "Illustrative"],
+            image: "./images/Impala.jpg",
+            styles: ["New School", "Illustrative"],
             location: "491 Papanui Road, Christchurch",
             priceRange: "$$",
             website: "https://www.facebook.com/impalatattoonz/"
         },  
         {
             name: "The Doom Room Tattoos",
-            image: "https://instagram.fakl4-1.fna.fbcdn.net/v/t51.2885-19/414488352_687026709934431_7693848768912964352_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fakl4-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QHH9kquxr9GUE4zHjOBDhdBn8sC0HR_7JRVYYsQtPyrJ7M7cmh6h7xinsUVSzMPTx0&_nc_ohc=FAvHagWlNigQ7kNvwGW4zLU&_nc_gid=DpoVD_fCQRf4g_2DhBbwLw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfjT3tBBr6hnRb35nnHeqCas2flqmRYcvsQxQItVzbRB2Q&oe=692565C3&_nc_sid=22de04",
-            styles: ["Watercolor", "New School", "Illustrative"],
-            location: "401A Ilam Road, Bryndwr, Christchurch, New Zealand 8053",
+            image: "./images/DoomRoom.jpg",
+            styles: ["New School", "Illustrative"],
+            location: "401A Ilam Road, Bryndwr",
             priceRange: "$$",
             website: "https://www.instagram.com/thedoomroom_tattoos/"
         },
         {
             name: "Orange Street",
-            image: "https://instagram.fakl4-1.fna.fbcdn.net/v/t51.2885-19/414488352_687026709934431_7693848768912964352_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fakl4-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QHH9kquxr9GUE4zHjOBDhdBn8sC0HR_7JRVYYsQtPyrJ7M7cmh6h7xinsUVSzMPTx0&_nc_ohc=FAvHagWlNigQ7kNvwGW4zLU&_nc_gid=DpoVD_fCQRf4g_2DhBbwLw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfjT3tBBr6hnRb35nnHeqCas2flqmRYcvsQxQItVzbRB2Q&oe=692565C3&_nc_sid=22de04",
+            image: "./images/Orange.jpg",
             styles: ["Fineline", "New School", "Illustrative"],
-            location: "694 Ferry Road",
+            location: "694 Ferry Road, Woolston",
             priceRange: "$$",
             website: "https://www.instagram.com/orangestreet_collective/"
         } 
