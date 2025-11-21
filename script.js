@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: "Orange Street",
             image: "./images/Orange.jpg",
-            styles: ["Fineline", "New School", "Illustrative"],
+            styles: ["Fineline", "Illustrative"],
             location: "694 Ferry Road, Woolston",
             priceRange: "$$",
             website: "https://www.instagram.com/orangestreet_collective/"
